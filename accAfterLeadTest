@@ -1,0 +1,9 @@
+@isTest 
+private class accAfterLeadTest {
+    static testMethod void createLead() {
+        Lead l 			= new Lead ();
+        l.FirstName 	= 'Sample';
+        l.LastName		= 'Sample last name';
+        insert l;
+            }
+}
