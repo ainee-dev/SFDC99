@@ -1,0 +1,10 @@
+@isTest 
+private class UpdateEmailTest {
+    static testMethod void updEmailToHW() {
+        Contact c = new Contact ();
+        c.FirstName = 'Sample';
+        c.LastName = 'Sample Last';
+        c.Email = 'my@email.com';
+        insert c;
+            }
+}
